@@ -10,6 +10,7 @@ public class Ordenar {
 		ArrayList<Double> num= new ArrayList();
 		System.out.println("Validad una prueba de git");
 		System.out.println("Otra validacion");
+		System.out.println("Otra validacion con GitHub");
 		for(int i=0;i<lista.size();i++){ 
 			for(int j=i+1;i<lista.size() ;i++) { 
 				if(lista.get(j).compareTo(lista.get(i))<0){ 
