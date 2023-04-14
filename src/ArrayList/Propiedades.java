@@ -1,6 +1,7 @@
 package ArrayList;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Propiedades {
 
@@ -34,5 +35,7 @@ public static void main(String[] args) {
 	ArrayList arrayListCopia = (ArrayList) nombreArrayList.clone();  
 	// Pasa el ArrayList a un Array 
 	Object[] array = nombreArrayList.toArray(); 
+	//Ordenar 
+	 Collections.sort(nombreArrayList);
 }
 }
